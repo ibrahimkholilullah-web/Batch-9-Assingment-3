@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Batah-9 Assingment-3 Solve</title>
+    <!-- dasiy Ui cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google font link add -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <style>
+        
+
+    .manrope {
+     font-family: "Manrope", sans-serif;
+ 
+     }
+     .font{
+        font-size: 16px;
+        color: #424247;
+
+     }
+    </style>
+</head>
+<body class="manrope px-4">
+    <header class="container mx-auto">
+        <!-- header section start here -->
+        <nav class="my-6">
+            <!-- navber section -->
+            <div class="navbar bg-base-100">
+                <div class="navbar-start">
+                  <div class="dropdown">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="h-5 w-5"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor">
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                          d="M4 6h16M4 12h8m-8 6h16" />
+                      </svg>
+                    </div>
+                    <ul
+                      tabindex="0"
+                      class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                      <li><a class="font text-[#FF4240]">Home</a></li>
+                      <li><a class="font">About</a></li>
+                      <li><a class="font">Pages</a></li>
+                      <li><a class="font">Blog</a></li>
+                      <li><a class="font">Contant</a></li>
+                    </ul>
+                  </div>
+                  <a class="btn btn-ghost text-4xl font-bold">Hockey <span class="text-[#FF4240]">`</span>s </a>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                  <ul class="menu menu-horizontal px-1">
+                    <li><a class="font text-[#FF4240] hover:bg-orange-200 ">Home</a></li>
+                      <li><a class="font">About</a></li>
+                      <li><a class="font">Pages</a></li>
+                      <li><a class="font">Blog</a></li>
+                      <li><a class="font">Contant</a></li>
+                  </ul>
+                </div>
+                <div class="navbar-end">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 mr-8">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
+                      </svg>
+                      
+                  <a class="btn bg-[#FF4240] text-xl font-bold text-white">Get Ticket</a>
+                </div>
+              </div>
+        </nav>
+        <!-- hero section start here -->
+         <section>
+            <div class="carousel w-full md:h-[550px]  my-4">
+                <div id="slide1" class="carousel-item relative w-full max-h-full">
+                  <img
+                    src="Images/1.png"
+                    class="w-full max-h-full" />
+                    
+                  <div class="absolute  flex -translate-y-1/2 transform top-28 left-28 md:left-10 md:top-3/4 ">
+                    <a href="#slide4" class="btn btn-circle bg-black text-white w-8 ">❮</a>
+                    <a href="#slide2" class="btn btn-circle ml-4 bg-black text-white w-8">❯</a>
+                  </div>
+                  <div class="absolute bg-black text-white md:p-8 p-3 rounded-lg md:top-96 md:right-4 top-full mt-3">
+                        <h1 class="md:text-2xl font-bold mb-2">Meet all the heroes from the field</h1>
+                        <p class="md:font text-sm text-[#707070]">Dit amet consectetur. Condimentum dignissim adipiscing aliquam <br>turpis placerat dolor. Purus urna in sit nullam proin. </p>
+                    </div>
+                </div>
+                <div id="slide2" class="carousel-item relative w-full">
+                    <img
+                    src="Images/1.png"
+                    class="w-full" />
+                    
+                    <div class="absolute  flex -translate-y-1/2 transform top-28 left-28 md:left-10 md:top-3/4  ">
+                        <a href="#slide1" class="btn btn-circle bg-black text-white w-8 ">❮</a>
+                        <a href="#slide3" class="btn btn-circle ml-4 bg-black text-white w-8">❯</a>
+                    </div>
+                    <div class="absolute bg-black text-white md:p-8 p-3 rounded-lg md:top-96 md:right-4 top-full mt-3">
+                        <h1 class="md:text-2xl font-bold mb-2">Meet all the heroes from the field</h1>
+                        <p class="md:font text-sm text-[#707070]">Dit amet consectetur. Condimentum dignissim adipiscing aliquam <br>turpis placerat dolor. Purus urna in sit nullam proin. </p>
+                    </div>
+                </div>
+                <div id="slide3" class="carousel-item relative w-full">
+                    <img
+                    src="Images/1.png"
+                    class="w-full" />
+                    <div class="absolute  flex -translate-y-1/2 transform top-28 left-28 md:left-10 md:top-3/4 ">
+                        <a href="#slide2" class="btn btn-circle bg-black text-white w-8 ">❮</a>
+                        <a href="#slide4" class="btn btn-circle ml-4 bg-black text-white w-8">❯</a>
+                    </div>
+                    <div class="absolute bg-black text-white md:p-8 p-3 rounded-lg md:top-96 md:right-4 top-full mt-3">
+                        <h1 class="md:text-2xl font-bold mb-2">Meet all the heroes from the field</h1>
+                        <p class="md:font text-sm text-[#707070]">Dit amet consectetur. Condimentum dignissim adipiscing aliquam <br>turpis placerat dolor. Purus urna in sit nullam proin. </p>
+                    </div>
+                </div>
+                <div id="slide4" class="carousel-item relative w-full">
+                    <img
+                    src="Images/1.png"
+                    class="w-full" />
+                    <div class="absolute  flex -translate-y-1/2 transform top-28 left-28 md:left-10 md:top-3/4  ">
+                        <a href="#slide3" class="btn btn-circle bg-black text-white w-8 ">❮</a>
+                        <a href="#slide1" class="btn btn-circle ml-4 bg-black text-white w-8">❯</a>
+                    </div>
+                    <div class="absolute bg-black text-white md:p-8 p-3 rounded-lg md:top-96 md:right-4 top-full mt-3">
+                        <h1 class="md:text-2xl font-bold mb-2">Meet all the heroes from the field</h1>
+                        <p class="md:font text-sm text-[#707070]">Dit amet consectetur. Condimentum dignissim adipiscing aliquam <br>turpis placerat dolor. Purus urna in sit nullam proin. </p>
+                    </div>
+                </div>
+              </div>
+         </section>
+    </header>
+    <main>
+        <!-- main section start here  -->
+         <!-- Hockeys Club section -->
+          <div class="text-center text-black py-8">
+            <h1 class="text-4xl font-bold mb-3 ">Professional Hockeys Club</h1>
+            <p class="font">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placeratbr
+                <br> dolor. Purus urna in sit nullam proin. </p>
+          </div>
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 my-8">
+            <div class="text-center px-16">
+                <div class="radial-progress text-[#FF4240] my-2" style="--value:87;" role="progressbar">87%</div>
+                <h1 class="text-xl font-bold my-2">Prayer Facility</h1>
+                <p class="font">Amet consectetur. Condimentum dignissim adipiscing .</p>
+            </div>
+            <div class="text-center px-16">
+                <div class="radial-progress text-[#49D293] my-2" style="--value:95;" role="progressbar">95%</div>
+                <h1 class="text-xl font-bold my-2">Experienced Coach</h1>
+                <p class="font">Amet consectetur. Condimentum dignissim adipiscing .</p>
+            </div>
+            <div class="text-center px-16">
+                <div class="radial-progress text-[#FFB546] my-2 " style="--value:90;" role="progressbar">90%</div>
+                <h1 class="text-xl font-bold my-2" >Senior Player</h1>
+                <p class="font">Amet consectetur. Condimentum dignissim adipiscing .</p>
+            </div>
+            <div class="text-center px-16">
+                <div class="radial-progress text-[#FF4240] my-2" style="--value:80;" role="progressbar">80%</div>
+                <h1 class="text-xl font-bold my-2">Training Ground</h1>
+                <p class="font">Amet consectetur. Condimentum dignissim adipiscing .</p>
+            </div>
+          </div>
+    </main>
+    <footer>
+        <!-- footer section start here -->
+    </footer>
+
+</body>
+</html>
